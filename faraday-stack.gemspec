@@ -5,7 +5,7 @@ Gem::Specification.new do |gem|
   gem.version = '0.1.0'
   gem.date    = Time.now.strftime('%Y-%m-%d')
 
-  gem.add_dependency 'faraday', '~> 0.6'
+  gem.add_dependency 'faraday', '~> 0.5'
   # gem.add_development_dependency 'rspec', '~> 1.2.9'
 
   gem.summary = "Great Faraday stack for consuming all kinds of APIs"
